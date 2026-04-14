@@ -1,0 +1,114 @@
+# =========================
+
+# OS / SYSTEM
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# VISUAL STUDIO / .NET
+
+# =========================
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+bin/
+obj/
+out/
+
+# Rider / VSCode (opcional manter configs compartilhadas)
+
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# =========================
+
+# LOGS
+
+# =========================
+
+*.log
+
+# =========================
+
+# ENV / SECRETS
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# NODE / NEXT.JS
+
+# =========================
+
+node_modules/
+.next/
+out/
+build/
+dist/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+
+# DOCKER
+
+# =========================
+
+docker-data/
+*.pid
+
+# =========================
+
+# DATABASE / LOCAL FILES
+
+# =========================
+
+*.sqlite
+*.db
+
+# =========================
+
+# KEYCLOAK / TEMP FILES
+
+# =========================
+
+docker/keycloak/data/
+docker/keycloak/tmp/
+
+# =========================
+
+# TEST / COVERAGE
+
+# =========================
+
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+
+# MISC
+
+# =========================
+
+*.swp
+*~

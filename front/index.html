@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LATAM Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="login-screen" class="screen">
+    <div class="card">
+      <h1>LATAM Platform</h1>
+      <p class="subtitle">Clique para entrar com sua conta</p>
+      <button id="login-btn">Entrar com Keycloak</button>
+      <p id="login-error" class="error hidden"></p>
+    </div>
+  </div>
+
+  <div id="app-screen" class="screen hidden">
+    <header>
+      <div class="header-info">
+        <span id="user-name"></span>
+        <span id="user-tenant" class="tenant-badge"></span>
+      </div>
+      <button id="logout-btn">Sair</button>
+    </header>
+
+    <main>
+      <h2>Produtos — <span id="country-label"></span></h2>
+      <table id="products-table">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Categoria</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody id="products-body">
+          <tr><td colspan="3" class="loading">Carregando...</td></tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
