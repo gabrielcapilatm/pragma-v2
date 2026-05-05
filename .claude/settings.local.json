@@ -39,7 +39,25 @@
       "Bash(docker exec latam-postgres:*)",
       "Bash(docker exec:*)",
       "Bash(xargs -I{} sh -c 'jar tf {} 2>/dev/null | grep -l \"login.ftl\" && echo {}')",
-      "Bash(docker-compose restart:*)"
+      "Bash(docker-compose restart:*)",
+      "Bash(cmd:*)",
+      "Bash(powershell:*)",
+      "Bash(powershell.exe -Command \"Get-ChildItem -Path 'C:\\\\Users\\\\gabriel.costa\\\\Desenvolvimento\\\\V2' | Select-Object Name\")",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(echo \"done:$?\")",
+      "Read(//c/Users/gabriel.costa/Desenvolvimento//**)",
+      "Bash(echo \"RC=$?\")",
+      "Bash(pandoc --version)",
+      "Bash(pandoc.exe --version)",
+      "Bash(python -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(echo \"exit: $?\")",
+      "Read(//usr/**)",
+      "Bash(ls /c/Python*/python.exe)",
+      "Bash(Get-Command pandoc, python, python3, node)",
+      "Bash(Out-String)",
+      "Bash(dir *)",
+      "Bash(git *)",
+      "Bash(echo \"EXIT: $?\")"
     ]
   }
 }

@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>FinancialApi.Domain</RootNamespace>
+    <AssemblyName>FinancialApi.Domain</AssemblyName>
+  </PropertyGroup>
+
+</Project>
